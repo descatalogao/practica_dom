@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.icon{
+    height: 24px;
+    width: 24px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: gray;
+}
+.logo{
+    align-self: center;
+    text-align: center;
+    min-width: 300px;
+}
+.menu{
+    align-self: center;
+    text-align: center;
+    min-width: 300px;
+}
+main{
+    display: flex;
+    margin: 20px 45px;
+    background-color: rgb(255, 0, 0);
+}
+.shoplist{
+    background-color: aquamarine;
+    margin: 10px 20px;
+    padding:10px 0;
+    width: 70lvw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.mbtitle{
+    background-color: beige;
+    color: rgb(61, 61, 61);
+    text-align: center;
+    height: 300px;
+}
+.filters{
+    display: flex;
+    justify-self: center;
+    justify-content: space-around;
+    flex-direction: column;
+    min-width: 24lvw;
+    padding: 0 4lvw ;
+    background-color: rgb(227, 227, 227);
+    margin: 10px 20px;
+}
+.filters>*{
+    list-style-type: none;
+    text-align: center;
+}
+.filters>h1{
+   font-size: x-large;
+}
+.filtersul{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+div{
+    display: flex;
+}
